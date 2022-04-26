@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Structure</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="body-wrpper">
+  <div class="navbar-wrapper">
+    <nav class="navbar sidenavbar navbar-expand-md d-flex navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggle-icon"><i class="fal fa-bars"></i></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header d-flex">
+            <h5 class="sidenav-heading" id="offcanvasNavbarLabel">PreTUPS<sup>TM</sup></h5>
+            <button type="button" class="text-reset d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fal fa-times"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav flex-column">
+            <li class="nav-item active">
+              <div class="nav-item-content">
+                <i class="fal fa-home side-icon"></i>
+                <a class="nav-link" href="#">Home</a>
+              </div>  
+            </li>
+            <li class="nav-item">
+              <div class="nav-item-content nav-dropdown-item">
+                <i class="fal fa-home side-icon"></i>
+                <a class="nav-link nav-dropdown-btn collapsed" data-bs-toggle="collapse" href="#pm">Profile Management</a>
+              </div>  
+              <div id="pm" class="collapse">
+                <ul class="sidenav-submenu">
+                  <li>
+                    <div class="nav-item-content">
+                      <i class="fal fa-circle"></i>
+                      <a class="nav-link" href="#">Commission Profile</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-item-content">
+                      <i class="fal fa-circle"></i>
+                      <a class="nav-link" href="#">Transfer control Profile</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-item-content">
+                      <i class="fal fa-circle"></i>
+                      <a class="nav-link" href="#">Bulk category-wise default profile</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="nav-item-content">
+                <i class="fal fa-home side-icon"></i>
+                <a class="nav-link" href="#">Operator User</a>
+              </div>  
+            </li>
+            <li class="nav-item">
+              <div class="nav-item-content">
+                <i class="fal fa-home side-icon"></i>
+                <a class="nav-link" href="#">Channel User</a>
+              </div>  
+            </li>
+            <li class="nav-item">
+              <div class="nav-item-content">
+                <i class="fal fa-home side-icon"></i>
+                <a class="nav-link" href="#">Profile Management Page</a>
+              </div>
+            </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer">
+          <a href="#" class="sidenavbar-btn"><i class="far fa-question-circle me-2"></i>Self Help</a>
+          <p>PreTUPS 715.01.01.01</p>
+        </div>
+        </div>
+    </nav>
+  </div>
+  <div class="content-wrapper">
+    <div class="content-header">
+      <a href="#">Help</a>
+      <span class="separator">|</span>
+      <a href="#">Network Admin<span class="content-header-icon">N</span></a>
+    </div>
+    <div class="content-body">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium quas distinctio, quis, cumque aliquam facilis at laboriosam modi soluta, assumenda autem ab natus expedita? Quo quae nam rerum quos?</p>
+    </div>
+</div>
+<footer>
+  <p>© 2020,Powered by Company. All Rights reserved.</p>
+</footer>
+</div>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
