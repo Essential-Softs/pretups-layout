@@ -158,7 +158,7 @@ ul{
 }
 .content-body{
     background-color: #f2f2f2;
-    height: 500vh;
+    height: 476vh;
 }
 footer{
     position: relative;
@@ -184,7 +184,7 @@ footer p{
   @media only screen and (min-width:768px){
     .sidenavbar{
         background-color: #212b35;
-        height: 525vh;
+        height: 500vh;
         width: 214px;
         position: absolute;
         top: 0;
@@ -195,9 +195,7 @@ footer p{
     .content-wrapper{
         margin-left: 214px;
     }
-    /* .content-body{
-        padding-left: 15px;
-    } */
+
     .content-header{
         position: relative;
         text-align: end;
